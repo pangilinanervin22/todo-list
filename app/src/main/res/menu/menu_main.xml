@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item android:id="@+id/menu_lockButton"
+        android:icon="@drawable/ic_lock_close"
+        android:title=""
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/add_item"
+        android:icon="@drawable/ic_add"
+        android:title=""
+        android:iconTint="@color/white"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_order_alpha"
+        android:title="A ➔ Z " />
+    <item
+        android:id="@+id/menu_order_reverseAlpha"
+        android:title="Z ➔ A" />
+    <item
+        android:id="@+id/menu_order_date"
+        android:title="Date Ascending" />
+    <item
+        android:id="@+id/menu_order_reverseDate"
+        android:title="Date Descending" />
+
+</menu>
